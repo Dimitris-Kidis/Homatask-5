@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homatask 5", "Homatask 5\Homatask 5.csproj", "{20AD4272-1368-4736-92EB-4FF11B226527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20AD4272-1368-4736-92EB-4FF11B226527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AD4272-1368-4736-92EB-4FF11B226527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AD4272-1368-4736-92EB-4FF11B226527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AD4272-1368-4736-92EB-4FF11B226527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED451F62-6D4F-4F3A-B430-F6E12AED2512}
+	EndGlobalSection
+EndGlobal
