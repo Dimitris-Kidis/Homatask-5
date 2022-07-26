@@ -4,9 +4,10 @@ public class App
 {
     public static void Main(string[] args)
     {
-        Animal dog = new Bulldog();
+        Animal dog = new Dog();
         dog.FoodIntake = 5;
         dog.MakeSound();
+        Console.WriteLine(dog.Age);
 
 
         Calculator.Sum(4, 5);
@@ -46,7 +47,7 @@ abstract class Animal
     // Calculated property
     public int Age
     {
-        get { return new Random().Next(1, 7); }
+        get { return new Random().Next(10, 14) - new Random().Next(1, 9); }
     }
 
     abstract public void MakeSound();
@@ -72,13 +73,6 @@ class Cat : Animal
     }
 }
 
-class Bulldog : Dog
-{
-    public override void MakeSound()
-    {
-        Console.WriteLine("Woof!");
-    }
-}
 
 class Calculator
 {
